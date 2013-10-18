@@ -1,0 +1,16 @@
+{
+  "name": "iterate",
+  "version": "0.1.0",
+  "description": "super simple iterator component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/iterate.git"
+  },
+  "author": "Cameron Bytheway <cameron@pivotapp.io>",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
