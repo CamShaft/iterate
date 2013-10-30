@@ -1,7 +1,7 @@
 {
-  "name": "iterate",
-  "repo": "CamShaft/iterate",
-  "description": "super simple iterator component",
+  "name": "range-fn",
+  "repo": "CamShaft/range-fn",
+  "description": "simple range component with a callback",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
