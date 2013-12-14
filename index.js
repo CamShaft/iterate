@@ -17,9 +17,11 @@ function range(min, count, fn) {
 
   function loop(cb) {
     var counts = typeof count === 'function' ? count() : min + count;
+    var results = [];
     for (var i = min; i < counts; i++) {
-      cb(i);
+      results.push(cb(i));
     }
+    return results;
   };
 
   if (fn) return loop(fn);
